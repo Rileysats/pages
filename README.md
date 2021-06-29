@@ -1,5 +1,5 @@
-## Personal Website Portfolio
-# Includes
+# Personal Website Portfolio
+## Includes
 - Projects
 - Contact
 - Education
