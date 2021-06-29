@@ -2,8 +2,8 @@ import React from 'react';
 class Experience extends React.Component{
   render(){
     return (
-      <div>
-        <h1>Experiences</h1>
+      <div className="centre-div">
+        <div className="title">Experiences</div>
       </div>
     );
   }

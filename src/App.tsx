@@ -6,6 +6,7 @@ import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Education from './components/Education';
 import Experience from './components/Experience';
+import Footer from './components/Footer';
 import Projects from './components/Projects';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 class App extends React.Component{
@@ -23,6 +24,7 @@ class App extends React.Component{
           <Route path="/contact/" component={Contact}/>
           <Route path="/projects/" component={Projects}/>
         </Switch>
+        <Footer/>
         </div>
       </Router>
 

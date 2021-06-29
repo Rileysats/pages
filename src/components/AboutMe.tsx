@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/index.css';
 class AboutMe extends React.Component{
   render(){
     return (
-      <div>
-        <h1>About Me</h1>
+      <div className="centre-div">
+        <div className="title">About Me</div>
       </div>
     );
   }
